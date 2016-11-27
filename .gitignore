@@ -1,0 +1,16 @@
+**/node_modules/
+node_modules/
+obj/
+[Bb]in/
+packages/
+**/bower_components/
+bower_components/
+.vs/config/applicationhost.config
+development_robots.txt
+production_robots.txt
+DexCMS.ExampleSite/libs/
+DexCMS.ExampleSite/Views/dexcms/
+DexCMS.ExampleSite/Scripts/DexCMSApps/
+DexCMS.ExampleSite/Scripts/DexCMS/
+DexCMS.ExampleSite/fonts/
+DexCMS.ExampleSite/Content/*.css

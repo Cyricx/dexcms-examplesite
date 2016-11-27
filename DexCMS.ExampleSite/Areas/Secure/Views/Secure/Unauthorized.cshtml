@@ -1,0 +1,12 @@
+﻿
+
+<h2>Secure</h2>
+
+<div class="form-box">
+    <h3>You will now be taken to a secure section on the site.</h3>
+    Please
+    @Html.ActionLink("Login", "Login", new { controller = "Account", area = "", returnUrl = "/secure/checkout" }, new { @class = "pseudo-btn" })
+    or
+    @Html.ActionLink("Create an account", "Register", new { controller = "Account", area = "", returnUrl = "/secure/checkout" }, new { @class = "pseudo-btn" })
+    to continue.
+</div>

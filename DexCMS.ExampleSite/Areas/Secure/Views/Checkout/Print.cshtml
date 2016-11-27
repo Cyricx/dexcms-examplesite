@@ -1,0 +1,88 @@
+@model DexCMS.Tickets.Orders.Models.Order
+@using DexCMS.Base.Mvc.Extensions;
+@{
+    Layout = null;
+    var appUser = User.Identity.GetAdditionalInfo();
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Print Order #@Model.OrderID</title>
+    <link rel="stylesheet" href="@Url.Content("~/content/receipt.css?v=4.0.0")" />
+</head>
+<body>
+    <h1>Gaea Retreat Center</h1>
+    <h2>Receipt for Payment from @appUser.FirstName @appUser.LastName</h2>
+    <div class="information">
+        <p>
+            Thank you for your order with Earth Rising Inc. Please print this receipt and save it for
+            your records.
+        </p>
+        <p>
+            For questions regarding this order please email the treasurer at: treasurer@campgaea.org
+        </p>
+    </div>
+    <h2>Order #@Model.OrderID <em>(Status: @Model.OrderStatus.ToString())</em></h2>
+    <div>
+        <ul class="ticket-list">
+            @foreach (var item in Model.Tickets)
+            {
+                <li>
+                    <h3><span>Ticket #@item.TicketID for @item.TicketSeat.TicketArea.Event.PageContent.Heading</span></h3>
+                    <div class="ticket-item">
+                        <div class="item-details">
+                            <strong>@string.Format("{0} {1}",
+                                   item.TicketSeat.TicketArea.Name + 
+                                   (item.TicketSeat.TicketRowID.HasValue ? 
+                                    " " + item.TicketSeat.TicketRow.TicketSection.Name + 
+                                    " " + item.TicketSeat.TicketRow.Designation + 
+                                    " " + item.TicketSeat.SeatNumber : ""),
+                                   item.TicketPrice.EventAgeGroup.Name)</strong>
+                            @if (!string.IsNullOrEmpty(item.FirstName))
+                            {
+                                <em>Assigned to: @item.FirstName @item.MiddleInitial @item.LastName</em>
+                            }
+                        </div>
+                        @if (item.TicketOptionChoices != null && item.TicketOptionChoices.Count > 0)
+                        {
+                        <div class="options">
+                            <ul>
+                                @foreach (var opt in item.TicketOptionChoices)
+                                {
+                                    <li>
+                                        <label>@opt.TicketOption.Name</label>
+                                        <span>@opt.Name</span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                        }
+                    </div>
+                    <div class="item-subtotal">
+                        <span class="price">@item.TicketTotalPrice.ToString("c")</span>
+                    </div>
+                    <div class="clear"></div>
+                </li>
+            }
+        </ul>
+        <div>
+            <div class="registration-total">
+                <strong>Total</strong>
+                <em>@Model.OrderTotal.ToString("c")</em>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <h2>Paid By:</h2>
+        @foreach (var payment in Model.Payments)
+        {
+            <div>
+                <strong>@payment.PaymentType.ToString()</strong>
+            </div>
+        }
+    </div>
+
+</body>
+</html>

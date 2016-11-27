@@ -1,0 +1,33 @@
+{
+  "name": "dexcms.examplesite",
+  "version": "1.0.0",
+  "description": "DexCMS Example Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Byram",
+  "license": "http://www.binpress.com/license/view/l/b86573b8c4ce821c314e0b02544e9a18",
+  "dependencies": {
+    "bootstrap-sass": "3.3.4",
+    "compass-mixins": "^0.12.7",
+    "dexcms-alerts": "https://github.com/Cyricx/dexcms-alerts.git#development",
+    "dexcms-base": "https://github.com/Cyricx/dexcms-base.git#development",
+    "dexcms-calendars": "https://github.com/Cyricx/dexcms-calendars.git#development",
+    "dexcms-core": "https://github.com/Cyricx/dexcms-core.git#development",
+    "dexcms-faqs": "https://github.com/Cyricx/dexcms-faqs.git#development",
+    "dexcms-tickets": "https://github.com/Cyricx/dexcms-tickets.git#development",
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "0.6.0",
+    "grunt-contrib-copy": "0.8.2",
+    "grunt-contrib-symlink": "1.0.0",
+    "grunt-contrib-uglify": "0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-json-generator": "0.1.0",
+    "grunt-text-replace": "0.4.0",
+    "grunt-sass": "^1.0.0",
+    "node-sass": "3.4.2",
+    "webconfig-parser": "0.1.0"
+  }
+}

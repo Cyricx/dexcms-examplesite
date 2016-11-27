@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Upgrading - DexCMS Example Site</title>
+        <link rel="shortcut icon" href="/favicon.ico" />
+       
+	<style></style>
+
+    </head>
+<body>
+
+    <main id="overlay">
+        <header id="header">
+
+            <a href="/" title="Home">
+                <h1>DexCMS Example Site</h1>
+            </a>
+
+        </header>
+
+        <section id="main">
+
+            <div>
+                <h2>We are currently upgrading the site!</h2>
+                <h3>Please be patient, average downtime is about 10-20 minutes. Please check back with us soon!</h3>
+            </div>
+
+
+        </section>
+
+        <footer>
+            <span>Copyright &copy; 2016 Content by Transcending Technology, Design & Code by <a href="http://www.chrisbyram.com" target="_blank" title="Chris Byram Solutions">Chris Byram</a></span>
+        </footer>
+
+    </main>
+</body>
+</html>

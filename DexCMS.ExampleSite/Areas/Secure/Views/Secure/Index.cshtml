@@ -1,0 +1,29 @@
+@using DexCMS.Base.Mvc.Extensions;
+@section head {
+    @Styles.Render("~/libs/ngtoast/ngtoast.min.css?v=4.0.0")
+    @Styles.Render("~/libs/ngtoast/ngtoast-animations.min.css?v=4.0.0")
+    <link href="~/content/checkins.css" rel="stylesheet" />
+<base href="@(new Uri(Request.Url, Url.Content("~/secure/")))" />
+
+}
+<toast></toast>
+<section ui-view></section>
+
+@{ 
+    var appUser = User.Identity.GetAdditionalInfo();
+}
+
+@section scripts {
+    <script>
+        var userData = {
+            username: '@appUser.UserName',
+            firstName: '@appUser.FirstName',
+            lastName: '@appUser.LastName',
+            isAdmin: @User.IsInRole("Admin").ToString().ToLower(),
+            isInstaller: @User.IsInRole("Installer").ToString().ToLower(),
+            isCashier: @User.IsInRole("Cashier").ToString().ToLower()
+        };
+    </script>
+    <script src="~/libs/requirejs/require.js?v=4.0.0" data-main="@Url.Content("~/scripts/dexcmsapps/applications/secure/secure.require.js?v=4.0.0")"></script>
+
+}
