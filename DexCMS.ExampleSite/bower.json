@@ -41,8 +41,5 @@
     "text": "2.0.14",
     "tinymce": "4.3.1",
     "underscore": "1.8.3"
-  },
-  "resolutions": {
-    "angular": ">=1.2.0"
   }
 }
