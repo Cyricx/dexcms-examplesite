@@ -14,3 +14,4 @@ DexCMS.ExampleSite/Scripts/DexCMSApps/
 DexCMS.ExampleSite/Scripts/DexCMS/
 DexCMS.ExampleSite/fonts/
 DexCMS.ExampleSite/Content/*.css
+**/*.suo
