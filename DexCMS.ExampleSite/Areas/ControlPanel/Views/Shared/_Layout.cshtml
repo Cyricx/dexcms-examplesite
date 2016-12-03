@@ -1,4 +1,5 @@
-@using DexCMS.Core.Infrastructure;
+﻿@using DexCMS.Core.Infrastructure;
+@using DexCMS.Core.Mvc.HtmlHelpers;
 @using DexCMS.Base.Mvc.Extensions;
 @{
     DexCMS.Base.Models.PageContent pageContent = ViewBag.PageContent;
@@ -15,11 +16,11 @@
     <link href='//fonts.googleapis.com/css?family=Almendra+SC|Handlee' rel='stylesheet' type='text/css'>
 
     
-    @Scripts.Render("~/libs/modernizr/modernizr.js?v=4.0.0")
-    @Styles.Render("~/libs/ngtoast/ngtoast.min.css?v=4.0.0")
-    @Styles.Render("~/libs/ngtoast/ngtoast-animations.min.css?v=4.0.0")
-    @Styles.Render("~/libs/angular-ui-bootstrap-datetimepicker/datetimepicker.css?v=4.0.0")
-    @Styles.Render("~/content/controlpanel.css?v=4.0.0")
+    @DexCMSRender.ScriptsWithVersion("~/libs/modernizr/modernizr.js")
+    @DexCMSRender.StylesWithVersion("~/libs/ngtoast/ngtoast.min.css")
+    @DexCMSRender.StylesWithVersion("~/libs/ngtoast/ngtoast-animations.min.css")
+    @DexCMSRender.StylesWithVersion("~/libs/angular-ui-bootstrap-datetimepicker/datetimepicker.css")
+    @DexCMSRender.StylesWithVersion("~/content/controlpanel.css")
     <base href="@(new Uri(Request.Url, Url.Content("~/controlpanel/")))" />
 
 </head>
@@ -123,7 +124,7 @@
         </div>
     </div>
 
-    <script src="~/libs/requirejs/require.js?v=4.0.0" data-main="@Url.Content("~/scripts/dexcmsapps/applications/controlpanel/controlpanel.require.js?v=4.0.0")"></script>
+    <script src="@DexCMSRender.ContentWithVersion("~/libs/requirejs/require.js")" data-main="@DexCMSRender.ContentWithVersion("~/scripts/dexcmsapps/applications/controlpanel/controlpanel.require.js")"></script>
 
 
     @{
