@@ -363,18 +363,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_NavigationLinks.cshtml" />
-    <Content Include="Views\Shared\_LayoutBuilder.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_OneColumn.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_TwoColumn.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_RightSidebarOnly.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_RightSidebarwithContent.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_ThreeColumn.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_LeftSidebarwithContent.cshtml" />
-    <Content Include="Views\Shared\LayoutTypes\_LeftSidebarOnly.cshtml" />
-    <Content Include="Views\Shared\_ContentBlockSingle.cshtml" />
-    <Content Include="Views\Shared\_ImagesAll.cshtml" />
-    <None Include="Views\Shared\_ContentBlocksAll.cshtml" />
-    <Content Include="Views\Shared\_ImageSingle.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

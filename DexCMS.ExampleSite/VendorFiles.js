@@ -15,6 +15,7 @@
     { folder: 'bootstrap/dist/js', files: ['bootstrap.min.js'], dist: 'bootstrap' },
     { folder: 'datetimepicker', files: ['jquery.datetimepicker.js', 'jquery.datetimepicker.css'] },
     { folder: 'flexslider', files: ['jquery.flexslider-min.js', 'flexslider.css'] },
+    { folder: 'flexslider/fonts', files: ['*'], dist: 'flexslider/fonts' },
     { folder: 'font-awesome', files: ['css/font-awesome.min.css', 'fonts/*'] },
     { folder: 'fullcalendar/dist', files: ['fullcalendar.min.js', 'fullcalendar.min.css'], dist: 'fullcalendar' },
     { folder: 'jquery/dist', files: ['jquery.min.js'], dist: 'jquery' },

@@ -13,11 +13,32 @@
 
 //@import "publicsite/header.scss";
 
-.one-column {
-    width: 80%;
-    margin: 0 auto;
+$cOneColumnBorder: $cDarkSlateBlue;
+$cMainFont: $cDarkSlateBlue;
+$cOneColumnBackground: $cLtBrown;
+$cTitleFont: $cLtBrown;
+$cTitleBackground: $cDarkBrown;
+
+.content-title {
+    background-color: $cTitleBackground;
+    color: $cTitleFont;
+    margin: 0 0 .5em -.5em;
+    padding: .25em .5em;
+    display: inline-block;
+    border-radius: 0 .25em .25em 0;
 }
-.two-column {
+
+.one-column-layout {
+    width: 80%;
+    margin: 1em auto;
+    border: 5px solid $cOneColumnBorder;
+    padding: 1em;
+    border-radius: 1em;
+    color: $cMainFont;
+    background-color: $cOneColumnBackground;
+}
+
+.two-column-layout {
     .before-content {
         width: 48%;
         float: left;
@@ -30,13 +51,13 @@
         float: right;
     }
 }
-.three-column {
+.three-column-layout {
     .before-content, .content, .content-after {
         float: left;
         width: 32%;
     }
 }
-.right-sidebar {
+.right-sidebar-layout {
     .before-content {
         width: 32%;
         float: right;
@@ -46,7 +67,7 @@
         float: left;
     }
 }
-.right-sidebar-only {
+.right-sidebar-only-layout {
     .before-content, .content, .after-content {
         width: 32%;
         float: right;
@@ -56,7 +77,7 @@
         width: 100%;
     }
 }
-.left-sidebar {
+.left-sidebar-layout {
     .before-content {
         width: 32%;
         float: left;
@@ -66,7 +87,7 @@
         float: right;
     }
 }
-.left-sidebar-only {
+.left-sidebar-only-layout {
     .before-content, .content, .after-content {
         width: 32%;
         float: left;

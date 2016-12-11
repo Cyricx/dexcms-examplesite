@@ -14,4 +14,6 @@
             $link.addClass('open');
         }
     });
+
+    $('.flexslider').flexslider();
 });
