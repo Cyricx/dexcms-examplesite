@@ -1,0 +1,82 @@
+//VARIABLES
+@import "global/_customerVariables.scss";
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/PublicSite/_publicVariables";
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/_placeholders";
+//font awesomeness
+@import "../bower_components/font-awesome/scss/font-awesome";
+
+@import "../node_modules/compass-mixins/lib/_compass";
+@import "../node_modules/compass-mixins/lib/compass/_reset";
+@import "../node_modules/compass-mixins/lib/compass/_css3";
+
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/PublicSite/_layout";
+
+//@import "publicsite/header.scss";
+
+.one-column {
+    width: 80%;
+    margin: 0 auto;
+}
+.two-column {
+    .before-content {
+        width: 48%;
+        float: left;
+        .content-images img {
+            width: 100%;
+        }
+    }
+    .content, .content-after {
+        width: 48%;
+        float: right;
+    }
+}
+.three-column {
+    .before-content, .content, .content-after {
+        float: left;
+        width: 32%;
+    }
+}
+.right-sidebar {
+    .before-content {
+        width: 32%;
+        float: right;
+    }
+    .content {
+        width: 64%;
+        float: left;
+    }
+}
+.right-sidebar-only {
+    .before-content, .content, .after-content {
+        width: 32%;
+        float: right;
+        clear: right;
+    }
+    .content-images img {
+        width: 100%;
+    }
+}
+.left-sidebar {
+    .before-content {
+        width: 32%;
+        float: left;
+    }
+    .content {
+        width: 64%;
+        float: right;
+    }
+}
+.left-sidebar-only {
+    .before-content, .content, .after-content {
+        width: 32%;
+        float: left;
+        clear: left;
+    }
+        .content-images img {
+        width: 100%;
+    }
+}
+
+footer {
+    clear: both;
+}

@@ -15,6 +15,9 @@
     <link rel="shortcut icon" href="~/favicon.ico" />
     <link href='//fonts.googleapis.com/css?family=Almendra+SC|Handlee' rel='stylesheet' type='text/css'>
 
+    <script>
+        var DEXCMS_GLOBALS = { ROOT_PATH: "@(new Uri(Request.Url, Url.Content("~/")))" };
+    </script>
     
     @DexCMSRender.ScriptsWithVersion("~/libs/modernizr/modernizr.js")
     @DexCMSRender.StylesWithVersion("~/libs/ngtoast/ngtoast.min.css")

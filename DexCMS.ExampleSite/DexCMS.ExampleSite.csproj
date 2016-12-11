@@ -292,6 +292,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\images\cdn\1\GaeaRetreat_gallery.jpg" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_original.PNG" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_slider.jpg" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_thumbnail.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_gallery.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_original.PNG" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_slider.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_thumbnail.jpg" />
     <Content Include="CustomConfig\index.js" />
     <Content Include="development_robots.txt" />
     <Content Include="Global.asax" />
@@ -355,6 +363,18 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_NavigationLinks.cshtml" />
+    <Content Include="Views\Shared\_LayoutBuilder.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_OneColumn.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_TwoColumn.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_RightSidebarOnly.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_RightSidebarwithContent.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_ThreeColumn.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_LeftSidebarwithContent.cshtml" />
+    <Content Include="Views\Shared\LayoutTypes\_LeftSidebarOnly.cshtml" />
+    <Content Include="Views\Shared\_ContentBlockSingle.cshtml" />
+    <Content Include="Views\Shared\_ImagesAll.cshtml" />
+    <None Include="Views\Shared\_ContentBlocksAll.cshtml" />
+    <Content Include="Views\Shared\_ImageSingle.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -368,7 +388,6 @@
   <ItemGroup>
     <Folder Include="Areas\Secure\Views\Shared\" />
     <Folder Include="content\files\cdn\" />
-    <Folder Include="content\images\cdn\" />
     <Folder Include="Controllers\" />
     <Folder Include="CustomClient\" />
     <Folder Include="sass\publicsite\" />

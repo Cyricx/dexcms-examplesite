@@ -37,6 +37,7 @@ namespace DexCMS.ExampleSite.DAL
         public DbSet<ContentStyle> ContentStyles { get; set; }
         public DbSet<Country> Countries { get; set; }
         public DbSet<Image> Images { get; set; }
+        public DbSet<LayoutType> LayoutTypes { get; set; }
         public DbSet<Log> Logs { get; set; }
         public DbSet<PageContentImage> PageContentImages { get; set; }
         public DbSet<PageContent> PageContents { get; set; }
