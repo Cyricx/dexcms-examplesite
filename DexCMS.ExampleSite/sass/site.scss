@@ -1,6 +1,7 @@
 //VARIABLES
 @import "global/_customerVariables.scss";
-@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/PublicSite/_publicVariables";
+
+
 @import "../node_modules/dexcms-core/dexcms.core.client/sass/_placeholders";
 //font awesomeness
 @import "../bower_components/font-awesome/scss/font-awesome";
@@ -9,94 +10,9 @@
 @import "../node_modules/compass-mixins/lib/compass/_reset";
 @import "../node_modules/compass-mixins/lib/compass/_css3";
 
-@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/PublicSite/_layout";
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/PublicSite/Index";
 
-//@import "publicsite/header.scss";
 
-$cOneColumnBorder: $cDarkSlateBlue;
-$cMainFont: $cDarkSlateBlue;
-$cOneColumnBackground: $cLtBrown;
-$cTitleFont: $cLtBrown;
-$cTitleBackground: $cDarkBrown;
-
-.content-title {
-    background-color: $cTitleBackground;
-    color: $cTitleFont;
-    margin: 0 0 .5em -.5em;
-    padding: .25em .5em;
-    display: inline-block;
-    border-radius: 0 .25em .25em 0;
-}
-
-.one-column-layout {
-    width: 80%;
-    margin: 1em auto;
-    border: 5px solid $cOneColumnBorder;
-    padding: 1em;
-    border-radius: 1em;
-    color: $cMainFont;
-    background-color: $cOneColumnBackground;
-}
-
-.two-column-layout {
-    .before-content {
-        width: 48%;
-        float: left;
-        .content-images img {
-            width: 100%;
-        }
-    }
-    .content, .content-after {
-        width: 48%;
-        float: right;
-    }
-}
-.three-column-layout {
-    .before-content, .content, .content-after {
-        float: left;
-        width: 32%;
-    }
-}
-.right-sidebar-layout {
-    .before-content {
-        width: 32%;
-        float: right;
-    }
-    .content {
-        width: 64%;
-        float: left;
-    }
-}
-.right-sidebar-only-layout {
-    .before-content, .content, .after-content {
-        width: 32%;
-        float: right;
-        clear: right;
-    }
-    .content-images img {
-        width: 100%;
-    }
-}
-.left-sidebar-layout {
-    .before-content {
-        width: 32%;
-        float: left;
-    }
-    .content {
-        width: 64%;
-        float: right;
-    }
-}
-.left-sidebar-only-layout {
-    .before-content, .content, .after-content {
-        width: 32%;
-        float: left;
-        clear: left;
-    }
-        .content-images img {
-        width: 100%;
-    }
-}
 
 footer {
     clear: both;
