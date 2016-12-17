@@ -57,7 +57,8 @@
     <Reference Include="DexCMS.Base">
       <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.dll</HintPath>
     </Reference>
-    <Reference Include="DexCMS.Base.Mvc">
+    <Reference Include="DexCMS.Base.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.WebApi">
@@ -380,6 +381,7 @@
     <Folder Include="CustomClient\" />
     <Folder Include="sass\publicsite\" />
     <Folder Include="scripts\resources\" />
+    <Folder Include="Views\Shared\ManageLinks\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611160254320_InitialCreate.resx">
