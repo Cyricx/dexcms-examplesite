@@ -60,6 +60,7 @@ namespace DexCMS.ExampleSite.DAL
         //! Faqs
         public DbSet<FaqCategory> FaqCategories { get; set; }
         public DbSet<FaqItem> FaqItems { get; set; }
+        public DbSet<FaqSection> FaqSections { get; set; }
 
         //! Ticketing.Events
         public DbSet<Event> Events { get; set; }

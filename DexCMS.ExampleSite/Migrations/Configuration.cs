@@ -19,6 +19,7 @@ namespace DexCMS.ExampleSite.Migrations
             (new Faqs.Mvc.Initializers.FaqsMvcInitializer(context)).Run();
             (new Tickets.Mvc.Initializers.TicketsMvcInitializer(context)).Run();
             (new Alerts.Initializers.AlertsInitializer(context)).Run();
+            (new Faqs.Initializers.FaqsInitializer(context)).Run();
         }
     }
 }
