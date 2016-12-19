@@ -4,11 +4,11 @@ using System.Web.Mvc;
 namespace DexCMS.ExampleSite.Areas.ControlPanel.Controllers
 {
     [Authorize(Roles="Admin")]
-    public class MainController : Controller
+    public class ControlPanelController : Controller
     {
         private IPageContentRepository repository;
 
-        public MainController(IPageContentRepository repo)
+        public ControlPanelController(IPageContentRepository repo)
         {
             repository = repo;
         }

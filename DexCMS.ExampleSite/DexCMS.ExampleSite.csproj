@@ -59,7 +59,7 @@
     </Reference>
     <Reference Include="DexCMS.Base.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.Mvc.dll</HintPath>
+      <HintPath>..\..\DexCMS.Base\DexCMS.Base.Mvc\bin\Debug\DexCMS.Base.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.WebApi">
       <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.WebApi.dll</HintPath>
@@ -316,7 +316,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\ViewEngineConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Areas\ControlPanel\Controllers\MainController.cs" />
+    <Compile Include="Areas\ControlPanel\Controllers\ControlPanelController.cs" />
     <Compile Include="Areas\ControlPanel\ControlPanelAreaRegistration.cs" />
     <Compile Include="Areas\Secure\Controllers\CheckoutController.cs" />
     <Compile Include="Areas\Secure\Controllers\SecureController.cs" />
@@ -343,8 +343,6 @@
     <Content Include="package.json" />
     <Content Include="bower.json" />
     <None Include="app_offline.htm_" />
-    <Content Include="Areas\ControlPanel\Views\Main\Index.cshtml" />
-    <Content Include="Areas\ControlPanel\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\ControlPanel\Views\web.config" />
     <Content Include="Areas\ControlPanel\Views\_ViewStart.cshtml" />
     <Content Include="Areas\Secure\Views\Checkout\Print.cshtml" />

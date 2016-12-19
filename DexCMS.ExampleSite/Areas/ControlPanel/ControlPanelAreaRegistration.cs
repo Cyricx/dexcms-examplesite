@@ -17,7 +17,7 @@ namespace DexCMS.ExampleSite.Areas.ControlPanel
             context.MapRoute(
                 "ControlPanel_default",
                 "ControlPanel/{*routes}",
-                new { action = "Index", controller="Main", area = "ControlPanel" }
+                new { action = "Index", controller= "ControlPanel", area = "ControlPanel" }
             );
         }
     }
