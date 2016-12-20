@@ -1,1 +1,16 @@
-﻿
+﻿//Variables
+@import "global/_customerVariables";
+
+
+//Mixins
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/_mixins";
+
+//Bootstrap
+@import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_theme";
+
+@import "../bower_components/font-awesome/scss/font-awesome";
+
+//Control Panel
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/controlpanel/_core";
+
