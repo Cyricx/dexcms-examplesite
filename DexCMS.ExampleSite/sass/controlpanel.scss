@@ -1,9 +1,10 @@
 ﻿//Variables
 @import "global/_customerVariables";
-
+@import "../node_modules/dexcms-core/dexcms.core.client/sass/applications/controlpanel/_core-variables";
 
 //Mixins
 @import "../node_modules/dexcms-core/dexcms.core.client/sass/_mixins";
+
 
 //Bootstrap
 @import "../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap";

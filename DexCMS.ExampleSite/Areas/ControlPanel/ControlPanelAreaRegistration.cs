@@ -1,24 +1,25 @@
-﻿using System.Web.Mvc;
+﻿using DexCMS.Base.Mvc;
+using DexCMS.Core.Infrastructure.Models;
+using DexCMS.ExampleSite.App_Start;
+using System.Web.Mvc;
 
 namespace DexCMS.ExampleSite.Areas.ControlPanel
 {
-    public class ControlPanelAreaRegistration : AreaRegistration 
+    public class ControlPanelAreaRegistration : AreaRegistration
     {
-        public override string AreaName 
+        public override string AreaName
         {
-            get 
+            get
             {
                 return "ControlPanel";
             }
         }
 
-        public override void RegisterArea(AreaRegistrationContext context) 
+        public override void RegisterArea(AreaRegistrationContext context)
         {
-            context.MapRoute(
-                "ControlPanel_default",
-                "ControlPanel/{*routes}",
-                new { action = "Index", controller= "ControlPanel", area = "ControlPanel" }
-            );
+            DexCMSConfiguration config = new DexCMSConfiguration();
+
+            BaseMvcRoutes.ControlPanelDefaultRoutes(context, config);
         }
     }
 }

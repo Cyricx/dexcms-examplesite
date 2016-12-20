@@ -1,24 +1,28 @@
 ﻿using DexCMS.Base.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
 using System.Web.Mvc;
 
 namespace DexCMS.ExampleSite.Areas.ControlPanel.Controllers
 {
-    [Authorize(Roles="Admin")]
-    public class ControlPanelController : Controller
-    {
-        private IPageContentRepository repository;
+    //[Authorize(Roles = "Admin")]
+    //public class ControlPanelController : Controller
+    //{
+    //    private IPageContentRepository repository;
 
-        public ControlPanelController(IPageContentRepository repo)
-        {
-            repository = repo;
-        }
+    //    public ControlPanelController(IPageContentRepository repo)
+    //    {
+    //        repository = repo;
+    //    }
 
-        //
-        // GET: /ControlPanel/Panel/
-        public ActionResult Index()
-        {
-            //action filter will add viewbag item
-            return View();
-        }
-	}
+    //    //
+    //    // GET: /ControlPanel/Panel/
+    //    public ActionResult Index()
+    //    {
+    //        //action filter will add viewbag item
+    //        return View();
+    //    }
+    //}
 }
