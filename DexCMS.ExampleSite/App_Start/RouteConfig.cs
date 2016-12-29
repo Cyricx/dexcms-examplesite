@@ -17,6 +17,7 @@ namespace DexCMS.ExampleSite
             DexCMSConfiguration config = new DexCMSConfiguration();
             
             CoreMvcRoutes.Configure(routes, config);
+            CoreMvcRoutes.CreateDefaltRoutes(routes, config);
             AlertsMvcRoutes.CreateDefaultRoutes(routes, config);
             CalendarsMvcRoutes.CreateDefaultRoutes(routes, config);
             TicketsMvcRoutes.CreateDefaultRoutes(routes, config);
