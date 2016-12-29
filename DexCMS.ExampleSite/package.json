@@ -27,6 +27,7 @@
     "grunt-json-generator": "0.1.0",
     "grunt-text-replace": "0.4.0",
     "grunt-sass": "1.2.1",
+    "grunt-xmlpoke": "0.9.0",
     "node-sass": "3.13.0",
     "webconfig-parser": "0.2.0"
   }
