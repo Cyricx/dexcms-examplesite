@@ -12,6 +12,7 @@ namespace DexCMS.ExampleSite.Migrations
 
         protected override void Seed(DAL.CMSContext context)
         {
+            
             (new Core.Infrastructure.Initializers.CoreInitializer(context)).Run();
             (new Base.Initializers.BaseInitializer(context)).Run();
             (new Calendars.Initializers.CalendarsInitializer(context)).Run();

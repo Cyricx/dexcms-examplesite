@@ -19,7 +19,7 @@ using DexCMS.Faqs.Models;
 
 namespace DexCMS.ExampleSite.DAL
 {
-    public class CMSContext : DbContext, IDexCMSContext, IDexCMSBaseContext, IDexCMSAlertsContext, IDexCMSCalendarsContext, IDexCMSFaqsContext, IDexCMSTicketsContext
+    public class CMSContext : DexCMSContext, IDexCMSContext, IDexCMSBaseContext, IDexCMSAlertsContext, IDexCMSCalendarsContext, IDexCMSFaqsContext, IDexCMSTicketsContext
     {
         //! CUSTOM
 
@@ -35,18 +35,11 @@ namespace DexCMS.ExampleSite.DAL
         public DbSet<ContentSubCategory> ContentSubCategories { get; set; }
         public DbSet<ContentScript> ContentScripts { get; set; }
         public DbSet<ContentStyle> ContentStyles { get; set; }
-        public DbSet<Country> Countries { get; set; }
-        public DbSet<Image> Images { get; set; }
         public DbSet<LayoutType> LayoutTypes { get; set; }
-        public DbSet<Log> Logs { get; set; }
         public DbSet<PageContentImage> PageContentImages { get; set; }
         public DbSet<PageContentRedirect> PageContentRedirects { get; set; }
         public DbSet<PageContent> PageContents { get; set; }
         public DbSet<PageType> PageTypes { get; set; }
-        public DbSet<SettingDataType> SettingDataTypes { get; set; }
-        public DbSet<SettingGroup> SettingGroups { get; set; }
-        public DbSet<Setting> Settings { get; set; }
-        public DbSet<State> States { get; set; }
         public DbSet<VisitedPage> VisitedPages { get; set; }
 
         //! Calendars
@@ -101,7 +94,7 @@ namespace DexCMS.ExampleSite.DAL
         public DbSet<VenueScheduleLocation> VenueScheduleLocations { get; set; }
 
         //ctor
-        public CMSContext() : base("ConnectionString") { }
+       // public CMSContext() : base("ConnectionString") { }
 
         //Customize database table generation
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
