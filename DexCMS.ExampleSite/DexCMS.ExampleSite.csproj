@@ -46,59 +46,59 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="DexCMS.Alerts">
-      <HintPath>node_modules\dexcms-alerts\dist\DexCMS.Alerts.dll</HintPath>
+      <HintPath>..\..\dexcms.alerts\DexCMS.Alerts\bin\release\DexCMS.Alerts.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Alerts.Mvc">
-      <HintPath>node_modules\dexcms-alerts\dist\DexCMS.Alerts.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.alerts\DexCMS.Alerts.Mvc\bin\release\DexCMS.Alerts.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Alerts.WebApi">
-      <HintPath>node_modules\dexcms-alerts\dist\DexCMS.Alerts.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.alerts\DexCMS.Alerts.WebApi\bin\release\DexCMS.Alerts.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base">
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.dll</HintPath>
+      <HintPath>..\..\dexcms.base\DexCMS.Base\bin\release\DexCMS.Base.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\DexCMS.Base\DexCMS.Base.Mvc\bin\Debug\DexCMS.Base.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.WebApi">
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.base\DexCMS.Base.WebApi\bin\release\DexCMS.Base.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars\bin\release\DexCMS.Calendars.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars.Mvc">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars.Mvc\bin\release\DexCMS.Calendars.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars.WebApi">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars.WebApi\bin\release\DexCMS.Calendars.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.Infrastructure">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Infrastructure.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.Infrastructure\bin\release\DexCMS.Core.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.Mvc">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.Mvc\bin\release\DexCMS.Core.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.WebApi">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.WebApi\bin\release\DexCMS.Core.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs\bin\release\DexCMS.Faqs.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs.Mvc">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs.Mvc\bin\release\DexCMS.Faqs.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs.WebApi">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs.WebApi\bin\release\DexCMS.Faqs.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets\bin\release\DexCMS.Tickets.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets.Mvc">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets.Mvc\bin\release\DexCMS.Tickets.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets.WebApi">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets.WebApi\bin\release\DexCMS.Tickets.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>

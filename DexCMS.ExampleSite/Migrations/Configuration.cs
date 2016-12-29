@@ -14,7 +14,7 @@ namespace DexCMS.ExampleSite.Migrations
         {
             
             (new Core.Infrastructure.Initializers.CoreInitializer(context)).Run();
-            (new Base.Initializers.BaseInitializer(context)).Run();
+            (new Base.Initializers.BaseInitializer(context, context)).Run();
             (new Calendars.Initializers.CalendarsInitializer(context)).Run();
             (new Calendars.Mvc.Initializers.CalendarsMvcInitializer(context)).Run();
             (new Faqs.Mvc.Initializers.FaqsMvcInitializer(context)).Run();

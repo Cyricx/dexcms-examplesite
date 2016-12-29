@@ -38,6 +38,7 @@ namespace DexCMS.ExampleSite.DAL
         public DbSet<LayoutType> LayoutTypes { get; set; }
         public DbSet<PageContentImage> PageContentImages { get; set; }
         public DbSet<PageContentRedirect> PageContentRedirects { get; set; }
+        public DbSet<PageContentPermission> PageContentPermissions { get; set; }
         public DbSet<PageContent> PageContents { get; set; }
         public DbSet<PageType> PageTypes { get; set; }
         public DbSet<VisitedPage> VisitedPages { get; set; }
