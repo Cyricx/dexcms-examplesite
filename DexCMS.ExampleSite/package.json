@@ -1,6 +1,6 @@
 {
   "name": "dexcms.examplesite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "DexCMS Example Website",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,12 @@
   "dependencies": {
     "bootstrap-sass": "3.3.7",
     "compass-mixins": "0.12.10",
-    "dexcms-alerts": "git+https://git@github.com/Cyricx/dexcms-alerts.git#development",
-    "dexcms-base": "git+https://git@github.com/Cyricx/dexcms-base.git#development",
-    "dexcms-calendars": "git+https://git@github.com/Cyricx/dexcms-calendars.git#development",
-    "dexcms-core": "git+https://git@github.com/Cyricx/dexcms-core.git#development",
-    "dexcms-faqs": "git+https://git@github.com/Cyricx/dexcms-faqs.git#development",
-    "dexcms-tickets": "git+https://git@github.com/Cyricx/dexcms-tickets.git#development",
+    "dexcms-alerts": "git+https://git@github.com/Cyricx/dexcms-alerts.git#0.3.0-alpha",
+    "dexcms-base": "git+https://git@github.com/Cyricx/dexcms-base.git#0.5.0-alpha",
+    "dexcms-calendars": "git+https://git@github.com/Cyricx/dexcms-calendars.git#0.4.0-alpha",
+    "dexcms-core": "git+https://git@github.com/Cyricx/dexcms-core.git#0.5.0-alpha",
+    "dexcms-faqs": "git+https://git@github.com/Cyricx/dexcms-faqs.git#0.4.0-alpha",
+    "dexcms-tickets": "git+https://git@github.com/Cyricx/dexcms-tickets.git#0.3.0-alpha",
     "grunt": "1.0.1",
     "grunt-cli": "1.2.0",
     "grunt-contrib-clean": "1.0.0",
