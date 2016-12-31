@@ -10,6 +10,7 @@ development_robots.txt
 production_robots.txt
 DexCMS.ExampleSite/libs/
 DexCMS.ExampleSite/Views/dexcms/
+DexCMS.ExampleSite/Areas/ControlPanel/Views/dexcms/
 DexCMS.ExampleSite/Scripts/DexCMSApps/
 DexCMS.ExampleSite/Scripts/DexCMS/
 DexCMS.ExampleSite/fonts/
