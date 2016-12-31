@@ -89,7 +89,7 @@ namespace DexCMS.ExampleSite.App_Start
             //Global Filters
             //Can not abstract below due to issues with having multiple libraries consuming WebActivatorEx
             kernel.BindFilter<Base.Mvc.Filters.ResolvePageContent>(FilterScope.Global, 0);
-           // kernel.BindFilter<Tickets.Mvc.Filters.GetPublicOpenEvents>(FilterScope.Global, 0);
+            kernel.BindFilter<Base.Mvc.Filters.AuthorizePageContent>(FilterScope.Global, 1);
         }        
     }
 }
