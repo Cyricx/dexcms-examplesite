@@ -1,5 +1,4 @@
 ﻿using DexCMS.Core.Infrastructure.Models;
-using DexCMS.ExampleSite.Migrations;
 using System.Data.Entity;
 
 namespace DexCMS.ExampleSite.DAL
@@ -17,6 +16,7 @@ namespace DexCMS.ExampleSite.DAL
             (new Tickets.Mvc.Initializers.TicketsMvcInitializer(context)).Run();
             (new Alerts.Initializers.AlertsInitializer(context)).Run();
             (new Faqs.Initializers.FaqsInitializer(context)).Run();
+            (new Tickets.Initializers.TicketsInitializer(context)).Run();
         }
     }
 }

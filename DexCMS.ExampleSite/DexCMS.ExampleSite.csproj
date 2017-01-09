@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
@@ -15,11 +15,11 @@
     <AssemblyName>DexCMS.ExampleSite</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
-    <IISExpressSSLPort/>
-    <IISExpressAnonymousAuthentication/>
-    <IISExpressWindowsAuthentication/>
-    <IISExpressUseClassicPipelineMode/>
-    <UseGlobalApplicationHostFile/>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
     <ApplicationInsightsResourceId>/subscriptions/86bb5f37-2d39-4b23-abbd-5d061b1f5963/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/DexCMS.ExampleSite</ApplicationInsightsResourceId>
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
   </PropertyGroup>
@@ -46,59 +46,59 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="DexCMS.Alerts">
-      <HintPath>node_modules\dexcms-alerts\dist\DexCMS.Alerts.dll</HintPath>
+      <HintPath>..\..\dexcms.alerts\DexCMS.Alerts\bin\release\DexCMS.Alerts.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Alerts.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>node_modules\dexcms-Alerts\dist\DexCMS.Alerts.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.Alerts\DexCMS.Alerts.Mvc\bin\release\DexCMS.Alerts.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Alerts.WebApi">
-      <HintPath>node_modules\dexcms-alerts\dist\DexCMS.Alerts.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.alerts\DexCMS.Alerts.WebApi\bin\release\DexCMS.Alerts.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base">
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.dll</HintPath>
+      <HintPath>..\..\dexcms.base\DexCMS.Base\bin\release\DexCMS.Base.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.Mvc, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.base\DexCMS.Base.Mvc\bin\release\DexCMS.Base.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Base.WebApi">
-      <HintPath>node_modules\dexcms-base\dist\DexCMS.Base.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.base\DexCMS.Base.WebApi\bin\release\DexCMS.Base.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars\bin\release\DexCMS.Calendars.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars.Mvc">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars.Mvc\bin\release\DexCMS.Calendars.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Calendars.WebApi">
-      <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.calendars\DexCMS.Calendars.WebApi\bin\release\DexCMS.Calendars.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.Infrastructure">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Infrastructure.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.Infrastructure\bin\release\DexCMS.Core.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.Mvc">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.Mvc\bin\release\DexCMS.Core.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.WebApi">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.core\DexCMS.Core.WebApi\bin\release\DexCMS.Core.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs\bin\release\DexCMS.Faqs.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs.Mvc">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs.Mvc\bin\release\DexCMS.Faqs.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Faqs.WebApi">
-      <HintPath>node_modules\dexcms-faqs\dist\DexCMS.Faqs.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.faqs\DexCMS.Faqs.WebApi\bin\release\DexCMS.Faqs.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets\bin\release\DexCMS.Tickets.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets.Mvc">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.Mvc.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets.Mvc\bin\release\DexCMS.Tickets.Mvc.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Tickets.WebApi">
-      <HintPath>node_modules\dexcms-tickets\dist\DexCMS.Tickets.WebApi.dll</HintPath>
+      <HintPath>..\..\dexcms.tickets\DexCMS.Tickets.WebApi\bin\release\DexCMS.Tickets.WebApi.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
@@ -152,7 +152,7 @@
       <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.CSharp"/>
+    <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.Owin, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
       <Private>True</Private>
@@ -225,21 +225,21 @@
       <HintPath>..\packages\PayPal.1.8.0\lib\net451\PayPal.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Net.Http"/>
+    <Reference Include="System.Net.Http" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Net.Http.WebRequest"/>
-    <Reference Include="System.Web.DynamicData"/>
-    <Reference Include="System.Web.Entity"/>
-    <Reference Include="System.Web.ApplicationServices"/>
-    <Reference Include="System.ComponentModel.DataAnnotations"/>
-    <Reference Include="System"/>
-    <Reference Include="System.Data"/>
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    <Reference Include="System.Web.Extensions"/>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
       <Private>True</Private>
@@ -276,13 +276,13 @@
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Drawing"/>
-    <Reference Include="System.Web"/>
-    <Reference Include="System.Xml"/>
-    <Reference Include="System.Configuration"/>
-    <Reference Include="System.Web.Services"/>
-    <Reference Include="System.EnterpriseServices"/>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
     <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
       <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
       <Private>True</Private>
@@ -293,76 +293,75 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="content\images\cdn\1\GaeaRetreat_gallery.jpg"/>
-    <Content Include="content\images\cdn\1\GaeaRetreat_original.PNG"/>
-    <Content Include="content\images\cdn\1\GaeaRetreat_slider.jpg"/>
-    <Content Include="content\images\cdn\1\GaeaRetreat_thumbnail.jpg"/>
-    <Content Include="content\images\cdn\2\LawrenceBusker_gallery.jpg"/>
-    <Content Include="content\images\cdn\2\LawrenceBusker_original.PNG"/>
-    <Content Include="content\images\cdn\2\LawrenceBusker_slider.jpg"/>
-    <Content Include="content\images\cdn\2\LawrenceBusker_thumbnail.jpg"/>
-    <Content Include="favicon.ico"/>
-    <Content Include="CustomConfig\index.js"/>
-    <Content Include="development_robots.txt"/>
-    <Content Include="Global.asax"/>
-    <Content Include="Gruntfile.js"/>
-    <Content Include="production_robots.txt"/>
-    <Content Include="scripts\site.js"/>
-    <Content Include="VendorFiles.js"/>
-    <Content Include="Web.config"/>
+    <Content Include="content\images\cdn\1\GaeaRetreat_gallery.jpg" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_original.PNG" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_slider.jpg" />
+    <Content Include="content\images\cdn\1\GaeaRetreat_thumbnail.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_gallery.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_original.PNG" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_slider.jpg" />
+    <Content Include="content\images\cdn\2\LawrenceBusker_thumbnail.jpg" />
+    <Content Include="favicon.ico" />
+    <Content Include="CustomConfig\index.js" />
+    <Content Include="development_robots.txt" />
+    <Content Include="Global.asax" />
+    <Content Include="Gruntfile.js" />
+    <Content Include="production_robots.txt" />
+    <Content Include="scripts\site.js" />
+    <Content Include="VendorFiles.js" />
+    <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\NinjectWebCommon.cs"/>
-    <Compile Include="App_Start\OwinStartup.cs"/>
-    <Compile Include="App_Start\RouteConfig.cs"/>
-    <Compile Include="App_Start\ViewEngineConfig.cs"/>
-    <Compile Include="App_Start\WebApiConfig.cs"/>
-    <Compile Include="Areas\ControlPanel\Controllers\ControlPanelController.cs"/>
-    <Compile Include="Areas\ControlPanel\ControlPanelAreaRegistration.cs"/>
-    <Compile Include="Areas\Secure\Controllers\CheckoutController.cs"/>
-    <Compile Include="Areas\Secure\Controllers\SecureController.cs"/>
-    <Compile Include="Areas\Secure\SecureAreaRegistration.cs"/>
-    <Compile Include="DAL\CMSContext.cs"/>
-    <Compile Include="DAL\CMSInitializer.cs"/>
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
+    <Compile Include="App_Start\OwinStartup.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\ViewEngineConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\ControlPanel\ControlPanelAreaRegistration.cs" />
+    <Compile Include="Areas\Secure\Controllers\CheckoutController.cs" />
+    <Compile Include="Areas\Secure\Controllers\SecureController.cs" />
+    <Compile Include="Areas\Secure\SecureAreaRegistration.cs" />
+    <Compile Include="DAL\CMSContext.cs" />
+    <Compile Include="DAL\CMSInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611160254320_InitialCreate.cs"/>
+    <Compile Include="Migrations\201611160254320_InitialCreate.cs" />
     <Compile Include="Migrations\201611160254320_InitialCreate.Designer.cs">
       <DependentUpon>201611160254320_InitialCreate.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs"/>
-    <Compile Include="Properties\AssemblyInfo.cs"/>
-    <Compile Include="Startup.cs"/>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config"/>
+    <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Service References\Application Insights\ConnectedService.json"/>
-    <Content Include="package.json"/>
-    <Content Include="bower.json"/>
-    <None Include="app_offline.htm_"/>
-    <Content Include="Areas\ControlPanel\Views\web.config"/>
-    <Content Include="Areas\ControlPanel\Views\_ViewStart.cshtml"/>
-    <Content Include="Areas\Secure\Views\Checkout\Print.cshtml"/>
-    <Content Include="Areas\Secure\Views\Secure\Index.cshtml"/>
-    <Content Include="Areas\Secure\Views\Secure\Unauthorized.cshtml"/>
-    <Content Include="Areas\Secure\Views\web.config"/>
-    <Content Include="Areas\Secure\Views\_ViewStart.cshtml"/>
-    <Content Include="sass\global\_customerVariables.scss"/>
-    <Content Include="sass\global\_publicVariables.scss"/>
-    <Content Include="sass\checkins.scss"/>
-    <Content Include="sass\controlpanel.scss"/>
-    <Content Include="sass\editor.scss"/>
-    <Content Include="sass\print.scss"/>
-    <Content Include="sass\receipt.scss"/>
-    <Content Include="sass\site.scss"/>
-    <Content Include="Views\Web.config"/>
-    <Content Include="Views\_ViewStart.cshtml"/>
-    <Content Include="Views\Shared\_Layout.cshtml"/>
-    <Content Include="Views\Shared\_NavigationLinks.cshtml"/>
+    <Content Include="Service References\Application Insights\ConnectedService.json" />
+    <Content Include="package.json" />
+    <Content Include="bower.json" />
+    <None Include="app_offline.htm_" />
+    <Content Include="Areas\ControlPanel\Views\web.config" />
+    <Content Include="Areas\ControlPanel\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Secure\Views\Checkout\Print.cshtml" />
+    <Content Include="Areas\Secure\Views\Secure\Index.cshtml" />
+    <Content Include="Areas\Secure\Views\Secure\Unauthorized.cshtml" />
+    <Content Include="Areas\Secure\Views\web.config" />
+    <Content Include="Areas\Secure\Views\_ViewStart.cshtml" />
+    <Content Include="sass\global\_customerVariables.scss" />
+    <Content Include="sass\global\_publicVariables.scss" />
+    <Content Include="sass\checkins.scss" />
+    <Content Include="sass\controlpanel.scss" />
+    <Content Include="sass\editor.scss" />
+    <Content Include="sass\print.scss" />
+    <Content Include="sass\receipt.scss" />
+    <Content Include="sass\site.scss" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_NavigationLinks.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -371,16 +370,16 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <WCFMetadata Include="Service References\"/>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Areas\Secure\Views\Shared\"/>
-    <Folder Include="content\files\cdn\"/>
-    <Folder Include="Controllers\"/>
-    <Folder Include="CustomClient\"/>
-    <Folder Include="sass\publicsite\"/>
-    <Folder Include="scripts\resources\"/>
-    <Folder Include="Views\Shared\ManageLinks\"/>
+    <Folder Include="Areas\Secure\Views\Shared\" />
+    <Folder Include="content\files\cdn\" />
+    <Folder Include="Controllers\" />
+    <Folder Include="CustomClient\" />
+    <Folder Include="sass\publicsite\" />
+    <Folder Include="scripts\resources\" />
+    <Folder Include="Views\Shared\ManageLinks\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611160254320_InitialCreate.resx">
@@ -391,14 +390,14 @@
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets"/>
-  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''"/>
-  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false"/>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
   <ProjectExtensions>
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>7209</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
