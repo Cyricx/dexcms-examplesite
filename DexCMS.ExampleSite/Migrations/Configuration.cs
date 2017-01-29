@@ -13,14 +13,14 @@ namespace DexCMS.ExampleSite.Migrations
         protected override void Seed(DAL.CMSContext context)
         {
             
-            (new Core.Infrastructure.Initializers.CoreInitializer(context)).Run();
-            (new Base.Initializers.BaseInitializer(context)).Run();
-            (new Calendars.Initializers.CalendarsInitializer(context)).Run();
-            (new Calendars.Mvc.Initializers.CalendarsMvcInitializer(context)).Run();
-            (new Faqs.Mvc.Initializers.FaqsMvcInitializer(context)).Run();
-            (new Tickets.Mvc.Initializers.TicketsMvcInitializer(context)).Run();
-            (new Alerts.Initializers.AlertsInitializer(context)).Run();
-            (new Faqs.Initializers.FaqsInitializer(context)).Run();
+            //(new Core.Initializers.CoreInitializer(context)).Run();
+            //(new Base.Initializers.BaseInitializer(context)).Run();
+            //(new Calendars.Initializers.CalendarsInitializer(context)).Run();
+            //(new Calendars.Mvc.Initializers.CalendarsMvcInitializer(context)).Run();
+            //(new Faqs.Mvc.Initializers.FaqsMvcInitializer(context)).Run();
+            //(new Tickets.Mvc.Initializers.TicketsMvcInitializer(context)).Run();
+            //(new Alerts.Initializers.AlertsInitializer(context)).Run();
+            //(new Faqs.Initializers.FaqsInitializer(context)).Run();
         }
     }
 }

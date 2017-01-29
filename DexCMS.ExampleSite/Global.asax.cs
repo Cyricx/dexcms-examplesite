@@ -4,8 +4,8 @@ using System;
 using System.Web;
 using System.Web.Http;
 using DexCMS.ExampleSite.DAL;
-using DexCMS.Core.Infrastructure;
-using DexCMS.Core.Infrastructure.Repositories;
+using DexCMS.Core;
+using DexCMS.Core.Repositories;
 using DexCMS.Core.Mvc.Globals;
 using DexCMS.Base.Mvc.Globals;
 

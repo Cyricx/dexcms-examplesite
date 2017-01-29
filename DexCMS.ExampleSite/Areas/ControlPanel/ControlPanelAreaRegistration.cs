@@ -1,5 +1,5 @@
 ﻿using DexCMS.Base.Mvc;
-using DexCMS.Core.Infrastructure.Models;
+using DexCMS.Core.Models;
 using DexCMS.ExampleSite.App_Start;
 using System.Web.Mvc;
 

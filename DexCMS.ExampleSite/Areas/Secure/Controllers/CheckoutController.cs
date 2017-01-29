@@ -1,5 +1,5 @@
-﻿using DexCMS.Core.Infrastructure;
-using DexCMS.Core.Infrastructure.Enums;
+﻿using DexCMS.Core;
+using DexCMS.Core.Enums;
 using DexCMS.Tickets.Orders.Interfaces;
 using DexCMS.Tickets.Orders.Models;
 using DexCMS.Tickets.Tickets.Interfaces;

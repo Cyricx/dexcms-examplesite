@@ -66,10 +66,10 @@ namespace DexCMS.ExampleSite.App_Start
         private static void RegisterServices(IKernel kernel)
         {
             //! Infrastructure
-            kernel.Bind<Core.Infrastructure.Contexts.IDexCMSContext>().To<CMSContext>();
+            kernel.Bind<Core.Contexts.IDexCMSContext>().To<CMSContext>();
 
             //! Core
-            Core.Infrastructure.Globals.CoreRegister<CMSContext>.RegisterServices(kernel);
+            Core.Globals.CoreRegister<CMSContext>.RegisterServices(kernel);
 
             //! Alerts
             Alerts.Globals.AlertsRegister<CMSContext>.RegisterServices(kernel);

@@ -1,13 +1,13 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using DexCMS.Core.Infrastructure.Contexts;
+using DexCMS.Core.Contexts;
 using DexCMS.Base.Contexts;
 using DexCMS.Alerts.Contexts;
 using DexCMS.Calendars.Contexts;
 using DexCMS.Tickets.Contexts;
 using DexCMS.Alerts.Models;
 using DexCMS.Base.Models;
-using DexCMS.Core.Infrastructure.Models;
+using DexCMS.Core.Models;
 using DexCMS.Calendars.Models;
 using DexCMS.Tickets.Events.Models;
 using DexCMS.Tickets.Orders.Models;

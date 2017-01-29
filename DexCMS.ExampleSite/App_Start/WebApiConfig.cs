@@ -1,5 +1,5 @@
 ﻿using DexCMS.Base.WebApi;
-using DexCMS.Core.Infrastructure.Models;
+using DexCMS.Core.Models;
 using DexCMS.Core.WebApi;
 using System.Web.Http;
 

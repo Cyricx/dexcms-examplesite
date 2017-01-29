@@ -73,8 +73,9 @@
     <Reference Include="DexCMS.Calendars.WebApi">
       <HintPath>node_modules\dexcms-calendars\dist\DexCMS.Calendars.WebApi.dll</HintPath>
     </Reference>
-    <Reference Include="DexCMS.Core.Infrastructure">
-      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Infrastructure.dll</HintPath>
+    <Reference Include="DexCMS.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.dll</HintPath>
     </Reference>
     <Reference Include="DexCMS.Core.Mvc">
       <HintPath>node_modules\dexcms-core\dist\DexCMS.Core.Mvc.dll</HintPath>
@@ -327,10 +328,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201611160254320_InitialCreate.cs"/>
-    <Compile Include="Migrations\201611160254320_InitialCreate.Designer.cs">
-      <DependentUpon>201611160254320_InitialCreate.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs"/>
     <Compile Include="Properties\AssemblyInfo.cs"/>
     <Compile Include="Startup.cs"/>
@@ -381,11 +378,6 @@
     <Folder Include="sass\publicsite\"/>
     <Folder Include="scripts\resources\"/>
     <Folder Include="Views\Shared\ManageLinks\"/>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201611160254320_InitialCreate.resx">
-      <DependentUpon>201611160254320_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
